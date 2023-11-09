@@ -15,7 +15,8 @@
         <div class="card-body">
           <h2 class="card-title text-lowercase">{{ project.title }}</h2>
           <p class="card-text">{{ project.description }}</p>
-          <div class="row ml-1 mr-1 p-0">
+          <div class="row ml-0 mr-5 p-0">
+            <img src={{ figure.img  style="width: 100%; height: auto;" />
             {%- if project.github -%}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">

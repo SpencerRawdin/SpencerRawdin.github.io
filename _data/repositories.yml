@@ -1,8 +1,9 @@
-github_users:
+
+# github_users:
   - torvalds
   - alshedivat
 
-github_repos:
+# github_repos:
   - alshedivat/al-folio
   - twbs/bootstrap
   - jekyll/jekyll
